@@ -29,5 +29,8 @@ public class LoginTest extends TestBase {
 		String actualResult = driver.findElement(By.tagName("body")).getText();
 		String expectedResult = "User is Logged in";
 		assertTrue(actualResult.contains(expectedResult));
+		
+		
+		//COMMENT FOR SC
 	}
 }
